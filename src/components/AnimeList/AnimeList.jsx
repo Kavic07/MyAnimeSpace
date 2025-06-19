@@ -1,5 +1,6 @@
 import React from "react";
 import AnimeCard from "../AnimeCard/AnimeCard";
+import "./AnimeList.css";
 
 const AnimeList = ({ anime }) => {
   if (!Array.isArray(anime) || anime.length === 0) {
