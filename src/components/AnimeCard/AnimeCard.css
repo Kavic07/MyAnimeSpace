@@ -1,0 +1,20 @@
+.animecard-container {
+  cursor: pointer;
+  width: 180px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.animecard-img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.animecard-wrapper {
+  padding: 0.5rem;
+}
+.animecard-title {
+  font-size: 1rem;
+  font-family: "lato", sans-serif;
+  color: maroon;
+  margin: 10px;
+}

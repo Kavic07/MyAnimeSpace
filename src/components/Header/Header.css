@@ -1,0 +1,11 @@
+.anime-header {
+  background-color: maroon;
+  padding: 0.1rem;
+  border-radius: 20px;
+  color: antiquewhite;
+  text-align: center;
+  font-family: "lato", sans-serif;
+}
+.anime-header h1 {
+  background-color: maroon;
+}

@@ -1,0 +1,28 @@
+.pagination-container {
+  text-align: center;
+  margin: 2rem 0;
+  font-family: "lato", sans-serif;
+  font-size: 14px;
+}
+.pagination-btn {
+  padding: 0.3rem 0.5rem;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: maroon;
+  color: antiquewhite;
+  cursor: pointer;
+}
+.pagination-btn2 {
+  padding: 0.3rem 0.5rem;
+  margin-left: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: maroon;
+  color: antiquewhite;
+  cursor: pointer;
+}
+.pagination-btn:disabled,
+.pagination-btn2:disabled {
+  background-color: #d3d3d3;
+}
