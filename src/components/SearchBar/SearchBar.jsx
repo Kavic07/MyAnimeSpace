@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import "./SearchBar.css";
 
-const SearchBar = () => {
+const SearchBar = ({ onSearch }) => {
   const [term, setTerm] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (term.trim()) {
-      // eslint-disable-next-line no-undef
       onSearch(term);
     }
   };
@@ -21,7 +20,9 @@ const SearchBar = () => {
         value={term}
         onChange={(e) => setTerm(e.target.value)}
       />
-      <button className="search-btn">Search</button>
+      <button className="search-btn" type="submit">
+        Search
+      </button>
     </form>
   );
 };

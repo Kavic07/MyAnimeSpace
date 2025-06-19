@@ -12,13 +12,12 @@
 .search-btn {
   margin-left: 0.5rem;
   padding: 0.5rem 1rem;
-  border: none;
+  border: 1px solid maroon;
   border-radius: 10px;
-  background-color: maroon;
-  color: antiquewhite;
+  color: maroon;
   cursor: pointer;
 }
 .search-btn:hover {
-  background-color: antiquewhite;
-  color: maroon;
+  background-color: maroon;
+  color: antiquewhite;
 }

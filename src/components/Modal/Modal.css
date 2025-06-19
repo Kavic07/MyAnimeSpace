@@ -1,0 +1,32 @@
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 600px;
+}
+
+.modal-btn {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.5rem;
+  background-color: maroon;
+  color: antiquewhite;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
